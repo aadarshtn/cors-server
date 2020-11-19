@@ -1,0 +1,17 @@
+{
+  "name": "cors-server",
+  "version": "1.0.0",
+  "description": "Server to get rid of CORS ACCESS NOT PRESENT ERROR",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "ADARSH T N",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
+    "request": "^2.88.2"
+  }
+}
